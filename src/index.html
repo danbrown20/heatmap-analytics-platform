@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional website heat map analytics platform with revenue tracking and real-time insights">
+    <meta name="keywords" content="heatmap, analytics, conversion, revenue, tracking, website optimization">
+    <title>HeatMap Analytics Platform - Professional Website Analytics</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="./css/main.css" as="style">
+    <link rel="preload" href="./js/main.js" as="script">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./css/main.css">
+    
+    <!-- External Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <header class="header" id="app-header">
+            <!-- Header content will be loaded by JavaScript -->
+        </header>
+
+        <main class="main-content" id="main-content">
+            <!-- Main dashboard content will be loaded by JavaScript -->
+        </main>
+    </div>
+
+    <!-- Tooltip for heat map interactions -->
+    <div id="tooltip" class="tooltip" style="display: none;"></div>
+    
+    <!-- Loading indicator -->
+    <div id="loading" class="loading-overlay">
+        <div class="loading-spinner"></div>
+        <p>Loading HeatMap Analytics...</p>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
